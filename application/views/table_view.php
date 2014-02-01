@@ -15,7 +15,8 @@
     </head>
     <body>
             <?php
-                $keys = array_keys((array)$result[0]);
+                $result = $_POST;
+                $keys = array_keys((array)$result);
             for($i = 0, $j = count($keys); $i < $j; $i++){
                 echo "<input type=&quot;text&quot; value=" . $keys[$i] . " size=15 disabled>";
             }

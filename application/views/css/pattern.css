@@ -2,6 +2,7 @@
 background-color: #124456;
 width: 80%;
 height: 70%;
+margin: auto 0 auto 0;
 float: right;
 
 }
@@ -41,7 +42,9 @@ margin-top: 480px;
 }
 
 .container{
-
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #0000ff;
 	font: sans-serif;
 }
 
